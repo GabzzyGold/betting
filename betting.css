@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(230, 240, 255);
+    color: #222;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.betting, .betting1 {
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+}
+
+.betting {
+    background: linear-gradient(135deg, #3b82f6, #9333ea);
+}
+
+.betting1 {
+    background: linear-gradient(135deg, #10b981, #22c55e);
+}
+
+.bet, .bet1, .bet2, .bet3 {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 250px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bet:hover, .bet1:hover, .bet2:hover, .bet3:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+label {
+    display: block;
+    margin: 8px 0 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    width: 90%;
+    outline: none;
+    font-size: 15px;
+}
+
+input:focus {
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 5px;
+    border-radius: 6px;
+}
